@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #633E0A;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #F5F5DC;
+    padding: 30px;
+  }
+  form {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #F5F5DC;
+    border: 2px solid #4B4B4B;
+    font-family: 'Abril Fatface', cursive;
+  }
+  label, input[type="submit"] {
+    font-size: 20px;
+    display: block;
+    margin: 20px 20px;
+    color: #3E3E3E;
+  }
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #E17DAC;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #E17DAC;
+    border: none;
+    border-radius: 5px;
+    color: #3E3E3E;
+    cursor: pointer;
+    display: block;
+    margin: 60px auto;
+    font-family: 'Abril Fatface', cursive;
+  }
+  input[type="submit"]:hover {
+    background-color: #000000;
+  }
+}
